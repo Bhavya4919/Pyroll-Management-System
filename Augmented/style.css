@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-image: url(illpay3.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+div.demo {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #c1f0f8;
+    border: 2px solid #2cbbbb;
+}
+
+.flex-container {
+    display: flex;
+
+    width: 470px;
+}
+
+.container {
+    padding: 15px;
+    font-size: 18px;
+    color: rgb(28, 38, 49);
+    margin: 25px;
+}
+
+.regbtn {
+    padding: 16px 20px;
+    border: none;
+    background-color: #2ee3e3;
+    color: black ;
+    font-weight: bold;
+    align-items: center;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.regbtn:hover {
+    opacity: 1;
+}
+hr {
+    height: 1px;
+    background-color: #2cbbbb;
+    height:3px;
+    border: none;
+}
+input[type=text]:focus,
+input[type=password]:focus
+ {
+    background-color: rgb(237, 242, 243);
+    outline: none;
+}
+
+input[type=text],
+input[type=password]
+ {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    font-size: 15px;
+    background: #faf9f9;
+}
