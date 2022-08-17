@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style3.css">
+    </head>
+<body>
+
+<form action="newempjsp.jsp" method="post">
+<table cellspadding="12" cellspacing="12">
+<th colspan="2" style="padding: 15px 25px;">New Employee</th>
+<tr>
+<td><b>Name</b></td>
+<td><input type="Text" name="Name" id="Name"></td>
+</tr>
+<tr>
+<td><b>Employee Id</b></td>
+<td><input type="Text" name="eid" id="eid"></td>
+</tr>
+<tr>
+<tr>
+<td><b>Date of Birth</b></td>
+<td><input type="date" name="dob" id="dob"></td>
+</tr>
+<tr>
+<td><b>Phone Number</b></td>
+<td><input type="tel" name="phno" id="phno"></td>
+</tr>
+<tr>
+<td><b>Department</b></td>
+<td><select name="Department" id="Department">
+    <option value="Accounting Department">Accounting Department</option>
+    <option value="HR Department">HR Department</option>
+    <option value="IT Department">IT Department</option>
+  </select>
+</td></tr>
+<td><b>Designation</b></td>
+<td><select name="Designation" id="Designation">
+    <option value="Accounting clerk">Accounting clerk</option>
+    <option value="HR Supervisor">HR Supervisor</option>
+    <option value="Programmer">Programmer</option>
+  </select>
+</td></tr>
+<tr>
+  <td><b>Monthly Salary</b></td>
+  <td><input type="number" name="salary" id = "salary"></td>
+</tr>
+<tr><td style="float: right;"><input type="submit" name="submit"></td><td><input type="reset" name="reset" ></td>
+</tr>
+
+</table></form>
+<a href="searchemployee.html" style="font-size: 18px; ">Search for an Employee</a><br><br>
+<a href="allempjsp.jsp" style="font-size: 18px;">View All Employee</a>
+</body>
+</html>
+
+
+
